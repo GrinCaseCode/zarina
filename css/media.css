@@ -872,7 +872,7 @@
     .catalog .btn-main.btn-main--dark {
         padding: 0 30px;
         height: 45px;
-        margin-top: 30px;
+        margin-top: 25px;
     }
     .properties__item {
         gap: 15px;
@@ -1212,6 +1212,17 @@
     }
     .body--menu .header .logo img {
         filter: brightness(0%);
+    }
+    .slider-catalog {
+        margin-top: 30px;
+    }
+    .footer .logo img {
+        width: 90px;
+    }
+    .footer .logo {
+        margin-bottom: 15px;
+        display: inline-block;
+        vertical-align: middle;
     }
 }
 

@@ -396,6 +396,83 @@
     .header.fixed .logo img {
         width: 65px;
     }
+    .page-about .btn-main {
+        min-width: 230px;
+        margin-top: 50px;
+    }
+    .page-about {
+        font-size: 18px;
+    }
+    .item-number__value {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    .numbers-wrapper {
+        margin: 52px 0;
+    }
+    .page-about .col-lg-7+.col-lg-5 {
+        padding-left: 35px;
+    }
+    .page-about h2 {
+        font-size: 27px;
+        margin-bottom: 24px;
+    }
+    .sertificats__content {
+        padding: 31px 42px;
+        font-size: 21px;
+    }
+    .sertificats__title {
+        font-size: 28px;
+        margin-bottom: 24px;
+    }
+    .sertificats__content .btn-main {
+        height: 65px;
+        font-size: 16px;
+        margin-top: 42px;
+    }
+    .slider-documents {
+        padding: 0 52px;
+    }
+    .item-document {
+        height: 372px;
+        padding: 27px;
+    }
+    .item-document__title {
+        font-size: 21px;
+    }
+    .item-document__type {
+        padding: 3px 12px 6px;
+        font-size: 17px;
+    }
+    .item-document__date {
+        font-size: 14px;
+    }
+    .item-document__size {
+        font-size: 11px;
+    }
+    .sertificats {
+        padding-bottom: 70px;
+    }
+    .sertificats .title-section {
+        margin-bottom: 40px;
+    }
+    .billbord-page {
+        padding-top: 90px;
+        min-height: 670px;
+        border-radius: 28px;
+        margin: 11px 15px;
+        margin-bottom: 0;
+    }
+    .billbord-page__title {
+        font-size: 43px;
+        margin-bottom: 22px;
+    }
+    .billbord-page__descr {
+        font-size: 19px;
+    }
+    .billbord__content {
+        max-width: 708px;
+    }
 }
 
 @media only screen and (max-width : 1400px) {
@@ -773,6 +850,47 @@
     .header.fixed .logo img {
         width: 50px;
     }
+    .page-about {
+        font-size: 15px;
+    }
+    .page-about .btn-main {
+        min-width: 190px;
+        margin-top: 15px;
+    }
+    .sertificats__content {
+        padding: 25px 30px;
+        font-size: 18px;
+    }
+    .sertificats__title {
+        font-size: 25px;
+        margin-bottom: 17px;
+    }
+    .sertificats__content .btn-main {
+        height: 57px;
+        font-size: 14px;
+        margin-top: 35px;
+    }
+    .item-document {
+        height: 313px;
+        padding: 20px;
+        border-radius: 20px;
+    }
+    .item-document__title {
+        font-size: 17px;
+    }
+    .item-document__type {
+        padding: 3px 10px 4px;
+        font-size: 15px;
+    }
+    .item-document__date {
+        font-size: 13px;
+    }
+    .item-document__size {
+        font-size: 10px;
+    }
+    .page-about .row {
+        margin-bottom: 32px;
+    }
 }
 
 /* Large Devices, Wide Screens */
@@ -783,6 +901,30 @@
     .header__wrapper .header__buttons,
     .header__wrapper .socials-list {
         display: none;
+    }
+    .page-about h2 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .page-about .col-lg-7+.col-lg-5 {
+        padding-left: 9px;
+    }
+    .sertificats__content {
+        padding: 20px 20px;
+        font-size: 14px;
+    }
+    .sertificats__title {
+        font-size: 21px;
+        margin-bottom: 14px;
+    }
+    .slider-documents {
+        padding: 0 25px;
+    }
+    .item-document__title {
+        font-size: 15px;
+    }
+    .item-document {
+        height: 272px;
     }
 }
 
@@ -1041,10 +1183,12 @@
         width: 57px;
         margin-left: 7px;
     }
+    .wrapper--page .header .logo img,
     .header.fixed .logo img,
     .logo img {
         width: 55px;
     }
+    .wrapper--page .header,
     .header.fixed {
         padding: 10px 0;
     }
@@ -1061,6 +1205,7 @@
     .phone-mobile i {
         transform: rotate(4deg);
     }
+    .wrapper--page .header .sandwich div,
     .header.fixed .sandwich div {
         background: #000;
     }
@@ -1223,6 +1368,73 @@
         margin-bottom: 15px;
         display: inline-block;
         vertical-align: middle;
+    }
+    .wrapper--page {
+        padding-top: 83px;
+    }
+    .billbord-page {
+        margin: 0 5px;
+        margin-top: 10px;
+        padding-top: 75px;
+        min-height: 580px;
+    }
+    .billbord-page,
+    .billbord-page::before {
+        border-radius: 20px;
+    }
+    .billbord-page__title {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .billbord-page__descr {
+        font-size: 16px;
+    }
+    .page-about {
+        padding: 45px 0;
+    }
+    .page-about img {
+        border-radius: 20px;
+        margin: 20px 0;
+    }
+    .numbers-wrapper {
+        margin: 10px 0;
+        gap: 0 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .item-number__value {
+        font-size: 36px;
+        margin-bottom: 5px;
+    }
+    .item-number {
+        font-size: 14px;
+    }
+    .page-about h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .page-about .row {
+        margin-bottom: 15px;
+    }
+    .page-about p:last-child {
+        margin-bottom: 0;
+    }
+    .page-about {
+        padding-bottom: 30px;
+    }
+    .sertificats {
+        padding-top: 37px;
+        padding-bottom: 45px;
+        margin-bottom: 25px;
+    }
+    .sertificats .title-section {
+        margin-bottom: 30px;
+    }
+    .sertificats__content .btn-main {
+        padding: 0 15px;
+    }
+    .slider-documents {
+        margin-top: 25px;
     }
 }
 

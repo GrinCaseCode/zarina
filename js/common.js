@@ -17,6 +17,33 @@ $(document).ready(function () {
         $menu.removeClass("fixed").addClass("default");
     }
 
+    //copy
+    $('.copy__btn').on('click', function() {
+        const $btn = $(this);
+        const $parent = $btn.closest('.copy');
+        const textToCopy = $parent.find('.copy__value').text();
+
+        const $temp = $("<input>");
+        $("body").append($temp);
+        $temp.val(textToCopy).select();
+        document.execCommand("copy");
+        $temp.remove();
+
+        const $tooltip = $('<span class="copy-tooltip">Скопировано!</span>');
+        
+        $('body').append($tooltip);
+
+        const btnOffset = $btn.offset();
+        $tooltip.css({
+            top: btnOffset.top - $tooltip.outerHeight() - 10,
+            left: btnOffset.left + ($btn.outerWidth() / 2) - ($tooltip.outerWidth() / 2)
+        });
+
+        $tooltip.fadeIn(200).delay(1000).fadeOut(400, function() {
+            $(this).remove();
+        });
+    });
+
     //datatime
     $('#date-start').datetimepicker({
         dayOfWeekStart: 1,
@@ -107,6 +134,17 @@ $(document).ready(function () {
                 }
             }
         ]
+    });
+
+     $('.slider-documents').slick({
+        arrows: true,
+        dots: false,
+        infinite: true,
+        touchThreshold: 1000,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-arrow-left"></i></div>',
+        nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-arrow-right"></i></div>',
     });
 
 

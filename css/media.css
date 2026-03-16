@@ -1356,7 +1356,7 @@
         background: #000;
     }
     .body--menu .header .logo img {
-        filter: brightness(0%);
+        filter: none;
     }
     .slider-catalog {
         margin-top: 30px;

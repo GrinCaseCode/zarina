@@ -473,6 +473,114 @@
     .billbord__content {
         max-width: 708px;
     }
+    .breadcrumbs {
+        padding-top: 35px;
+        padding-bottom: 25px;
+        font-size: 13px;
+    }
+    .unit-catalog__content {
+        margin-right: -237px;
+        padding: 25px;
+        padding-top: 20px;
+    }
+    .unit-catalog__text {
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+    .unit-catalog .properties__item {
+        width: 213px;
+    }
+    .unit-catalog .properties__item:nth-child(2) {
+        width: 134px;
+    }
+    .unit-catalog__head {
+        margin-bottom: 13px;
+    }
+    .unit-catalog__title {
+        font-size: 36px;
+    }
+    .unit-catalog__area {
+        font-size: 21px;
+    }
+    .unit-catalog .price-main {
+        font-size: 28px;
+    }
+    .unit-catalog .btn-main {
+        height: 48px;
+        padding: 0 36px;
+    }
+    .unit-catalog__image {
+        height: 435px;
+    }
+    .unit-catalog {
+        margin-bottom: 40px;
+    }
+    .billbord-card__title {
+        font-size: 33px;
+        margin-bottom: 24px;
+    }
+    .billbord-card__text {
+        font-size: 19px;
+    }
+    .billbord-card__text p {
+        margin-bottom: 17px;
+    }
+    .billbord-card__content {
+        max-width: 565px;
+        margin-top: 120px;
+    }
+    .billbord-card {
+        min-height: 660px;
+        margin: 0 15px;
+    }
+    .form-booking--page .form-booking__title {
+        font-size: 22px;
+        max-width: 187px;
+        margin-right: 10px;
+    }
+    .form-booking--page .form-booking__line .btn-main {
+        min-width: 230px;
+    }
+    .card-info {
+        padding: 26px;
+        padding-top: 15px;
+        top: 115px;
+    }
+    .card-info__title {
+        font-size: 42px;
+    }
+    .card-info__warning img {
+        width: 32px;
+    }
+    .card-info__head {
+        margin-bottom: 24px;
+    }
+    .feature {
+        margin-bottom: 20px;
+        font-size: 16px;
+        gap: 15px;
+    }
+    .card-info__bottom {
+        padding-top: 35px;
+    }
+    .card-info .price-main {
+        font-size: 29px;
+    }
+    .card-info .btn-main {
+        height: 46px;
+        padding: 0 39px;
+    }
+    .card-about {
+        padding-top: 25px;
+        font-size: 16px;
+    }
+    .card-about h2 {
+        font-size: 32px;
+        margin-bottom: 17px;
+    }
+    .slider-card__image {
+        height: 390px;
+    }
 }
 
 @media only screen and (max-width : 1400px) {
@@ -891,6 +999,101 @@
     .page-about .row {
         margin-bottom: 32px;
     }
+    .unit-catalog__text {
+        font-size: 14px;
+        margin-bottom: 22px;
+    }
+    .unit-catalog .properties {
+        gap: 10px;
+        padding-bottom: 20px;
+    }
+    .unit-catalog__title {
+        font-size: 30px;
+    }
+    .unit-catalog__area {
+        font-size: 18px;
+    }
+    .unit-catalog .btn-main {
+        height: 43px;
+        padding: 0 30px;
+    }
+    .unit-catalog .price-main {
+        font-size: 24px;
+    }
+    .unit-catalog__content {
+        margin-right: -222px;
+        padding: 20px;
+    }
+    .unit-catalog .properties__item {
+        width: 194px;
+    }
+    .unit-catalog .properties__item:nth-child(2) {
+        width: 120px;
+    }
+    .unit-catalog__image {
+        height: 380px;
+    }
+    .page-catalog {
+        padding-top: 45px;
+        padding-bottom: 30px;
+    }
+    .billbord-card__title {
+        font-size: 30px;
+        margin-bottom: 22px;
+    }
+    .billbord-card__text {
+        font-size: 17px;
+    }
+    .billbord-card__content {
+        max-width: 512px;
+        margin-top: 100px;
+    }
+    .billbord-card {
+        min-height: 580px;
+    }
+    .form-booking--page .form-booking__title {
+        font-size: 20px;
+        max-width: 175px;
+    }
+    .form-booking--page .form-booking__line .btn-main {
+        min-width: 200px;
+    }
+    .feature {
+        margin-bottom: 15px;
+        font-size: 14px;
+        gap: 12px;
+    }
+    .card-info__head {
+        margin-bottom: 20px;
+    }
+    .card-info__title {
+        font-size: 36px;
+    }
+    .card-info__warning {
+        gap: 11px;
+    }
+    .card-info__warning img {
+        width: 29px;
+    }
+    .slider-card__image {
+        height: 338px;
+    }
+    .card-about h2 {
+        font-size: 28px;
+    }
+    .card-about {
+        padding-top: 15px;
+        font-size: 14px;
+    }
+    .card-info__bottom {
+        padding-top: 26px;
+    }
+    .card-info .price-main {
+        font-size: 26px;
+    }
+    .card-info {
+        top: 103px;
+    }
 }
 
 /* Large Devices, Wide Screens */
@@ -925,6 +1128,26 @@
     }
     .item-document {
         height: 272px;
+    }
+    .form-booking--page .form-booking__title {
+        font-size: 17px;
+        max-width: 145px;
+    }
+    .card-info__title {
+        font-size: 30px;
+    }
+    .card-about h2 {
+        font-size: 23px;
+    }
+    .slider-card__image {
+        height: 295px;
+    }
+    .card-info__bottom {
+        padding-top: 13px;
+    }
+    .card-info {
+        padding: 20px;
+        padding-top: 12px;
     }
 }
 
@@ -1435,6 +1658,108 @@
     }
     .slider-documents {
         margin-top: 25px;
+    }
+    .breadcrumbs {
+        padding-top: 20px;
+        padding-bottom: 15px;
+        font-size: 13px;
+    }
+    .billbord-catalog .title-section {
+        margin-bottom: 30px;
+    }
+    .page-catalog {
+        padding-top: 35px;
+    }
+    .unit-catalog__content {
+        margin: 0;
+        padding: 20px;
+        margin-bottom: 15px;
+    }
+    .unit-catalog .properties__item:nth-child(2),
+    .unit-catalog .properties__item {
+        width: 100%;
+    }
+    .unit-catalog__bottom {
+        display: block;
+    }
+    .unit-catalog .btn-main {
+        height: 46px;
+        width: 100%;
+        margin-top: 15px;
+    }
+    .unit-catalog__image {
+        height: 185px;
+    }
+    .unit-catalog__image,
+    .unit-catalog__image img {
+        border-radius: 16px;
+    }
+    .unit-catalog .row>div {
+        padding: 0 4px;
+    }
+    .unit-catalog .row {
+        margin: 0 -4px;
+    }
+    .unit-catalog__title {
+        font-size: 27px;
+    }
+    .unit-catalog {
+        margin-bottom: 30px;
+    }
+    .wrapper {
+        overflow: hidden;
+    }
+    .billbord-card {
+        margin: 0 5px;
+    }
+    .breadcrumbs {
+        display: block;
+    }
+    .breadcrumbs li {
+        display: inline;
+    }
+    .breadcrumbs li::after {
+        margin: 0 5px;
+    }
+    .billbord-card__title {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .billbord-card__content {
+        margin-top: 80px;
+    }
+    .billbord-card__text {
+        font-size: 15px;
+    }
+    .form-booking--page .form-booking__title {
+        font-size: 20px;
+        text-align: center;
+        max-width: 100%;
+        width: 100%;
+    }
+    .card-info {
+        padding: 20px 15px;
+        margin-top: 20px;
+        top: 0;
+    }
+    .card-info__head {
+        display: block;
+    }
+    .card-info__title {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    .card-info__bottom {
+        display: block;
+    }
+    .card-info .btn-main {
+        height: 50px;
+        margin-top: 20px;
+        padding: 0 10px;
+        width: 100%;
+    }
+    .page-card {
+        padding-bottom: 50px;
     }
 }
 

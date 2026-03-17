@@ -136,16 +136,6 @@ $(document).ready(function () {
         ]
     });
 
-     $('.slider-documents').slick({
-        arrows: true,
-        dots: false,
-        infinite: true,
-        touchThreshold: 1000,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-arrow-left"></i></div>',
-        nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-arrow-right"></i></div>',
-    });
 
 
     function updateSliderCount() {
@@ -171,6 +161,53 @@ $(document).ready(function () {
     setTimeout(function () {
         updateSliderCount();
     }, 100);
+
+         $('.slider-documents').slick({
+        arrows: true,
+        dots: false,
+        infinite: true,
+        touchThreshold: 1000,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-arrow-left"></i></div>',
+        nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-arrow-right"></i></div>',
+    });
+
+    $('.slider-wrapper').each(function () {
+	const $wrapper = $(this);
+	const $slider = $wrapper.find('.slider-card');
+	const $number = $wrapper.find('.slider-controls__number');
+	const $total = $wrapper.find('.slider-controls__total');
+    const $controls = $wrapper.find('.slider-controls');
+
+	$slider.slick({
+		arrows: true,
+		dots: false,
+		infinite: true,
+		touchThreshold: 1000,
+        appendArrows: $controls,
+                prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-arrow-left"></i></div>',
+        nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-arrow-right"></i></div>',
+		slidesToShow: 1,
+		slidesToScroll: 1,
+	});
+
+	const totalSlides = $slider.slick("getSlick").slideCount;
+	$total.text(totalSlides);
+
+	function updateSliderUI(currentIndex) {
+		const currentSlide = currentIndex + 1; 
+		$number.text(currentSlide);
+
+	}
+
+	updateSliderUI($slider.slick('slickCurrentSlide'));
+
+	$slider.on('afterChange', function (event, slick, currentSlide) {
+		updateSliderUI(currentSlide);
+	});
+
+});
 
     $(".input-phone").mask("+7 (999) 999-99-99");
 

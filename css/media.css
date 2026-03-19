@@ -216,11 +216,15 @@
     .item-catalog__buttons .btn-main {
         height: 40px;
     }
+    .prev.page-numbers, .next.page-numbers,
     .slick-arrow {
         width: 51px;
         height: 51px;
         font-size: 14px;
         border-radius: 50%;
+    }
+    .pager {
+        height: 51px;
     }
     .slider-catalog .slick-next {
         left: 58px;
@@ -581,6 +585,85 @@
     .slider-card__image {
         height: 390px;
     }
+    .billbord-article,
+    .billbord-news {
+        min-height: 420px;
+    }
+    .item-news__image {
+        height: 340px;
+    }
+    .item-news__content {
+        padding: 28px;
+        margin-top: -47px;
+        padding-top: 17px;
+    }
+    .item-news__title {
+        font-size: 25px;
+        margin-bottom: 17px;
+    }
+    .item-news__bottom {
+        padding-top: 20px;
+    }
+    .item-news .btn-main {
+        height: 46px;
+        padding: 0 36px;
+    }
+    .page-news {
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+    .billbord-contacts__title,
+    .billbord-news__title {
+        font-size: 42px;
+    }
+    .billbord-article__title {
+        font-size: 32px;
+        margin-bottom: 22px;
+    }
+    .billbord-article__text {
+        font-size: 19px;
+    }
+    .billbord-article__content {
+        max-width: 727px;
+    }
+    .article-content {
+        padding: 29px;
+        padding-top: 16px;
+        margin-top: 15px;
+    }
+    .article-content h2 {
+        font-size: 27px;
+        margin-top: 33px;
+        margin-bottom: 17px;
+    }
+    .article-content h3 {
+        font-size: 18px;
+        margin: 21px 0;
+    }
+    .page-article {
+        padding-top: 40px;
+        padding-bottom: 78px;
+    }
+    .billbord-contacts {
+    padding-bottom: 235px;
+    }
+    .item-contact__value {
+    font-size: 27px;
+    }
+    .item-contact__title {
+    font-size: 17px;
+    margin-bottom: 14px;
+    }
+    .item-contact {
+    margin-bottom: 35px;
+}
+.page-contacts .btn-main {
+    min-width: 230px;
+}
+#map {
+    height: 450px;
+    margin-top: 50px;
+}
 }
 
 @media only screen and (max-width : 1400px) {
@@ -785,11 +868,16 @@
     .item-catalog__buttons .btn-main {
         height: 35px;
     }
+    .prev.page-numbers, .next.page-numbers,
     .slick-arrow {
         width: 44px;
         height: 44px;
         font-size: 12px;
         border-radius: 50%;
+    }
+    .pager {
+        height: 44px;
+        gap: 20px;
     }
     .slider-catalog .slick-next {
         left: 51px;
@@ -1094,6 +1182,61 @@
     .card-info {
         top: 103px;
     }
+    .item-news__content {
+        padding: 22px;
+        margin-top: -40px;
+        padding-top: 15px;
+    }
+    .item-news__title {
+        font-size: 21px;
+        margin-bottom: 15px;
+    }
+    .item-news .btn-main {
+        height: 43px;
+        padding: 0 33px;
+    }
+    .page-news {
+        padding-bottom: 50px;
+    }
+    .billbord-article,
+    .billbord-news {
+        min-height: 392px;
+    }
+    .billbord-article__title {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .billbord-article__text {
+        font-size: 17px;
+    }
+    .billbord-article__content {
+        max-width: 675px;
+    }
+    .article-content h2 {
+        font-size: 25px;
+        margin-top: 30px;
+        margin-bottom: 17px;
+    }
+    .article-content h3 {
+        font-size: 16px;
+        margin: 19px 0;
+    }
+    .article-content img {
+        margin: 36px 0;
+    }
+        .billbord-contacts {
+        padding-bottom: 200px;
+    }
+        .item-contact__value {
+        font-size: 23px;
+    }
+        .item-contact__title {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .phone-main {
+        white-space: nowrap;
+    }
 }
 
 /* Large Devices, Wide Screens */
@@ -1148,6 +1291,18 @@
     .card-info {
         padding: 20px;
         padding-top: 12px;
+    }
+    .item-news__title {
+        font-size: 16px;
+        margin-bottom: 14px;
+    }
+    .article-content h2 {
+        font-size: 22px;
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+        .item-contact__value {
+        font-size: 18px;
     }
 }
 
@@ -1761,6 +1916,79 @@
     .page-card {
         padding-bottom: 50px;
     }
+    .billbord-article,
+    .billbord-news {
+        min-height: 300px;
+        margin-top: -30px;
+        padding-top: 30px;
+        border-radius: 24px;
+        padding-bottom: 30px;
+    }
+    .billbord-contacts__title,
+    .billbord-news__title {
+        font-size: 30px;
+    }
+    .item-news__title {
+        font-size: 19px;
+        margin-bottom: 15px;
+    }
+    .billbord-article__title {
+        font-size: 21px;
+        margin-bottom: 16px;
+    }
+    .billbord-article__text {
+        font-size: 14px;
+    }
+    .page-article {
+        padding-top: 24px;
+        padding-bottom: 55px;
+    }
+    .article-content {
+        padding: 25px 15px;
+    }
+    .article-content img {
+        margin: 18px 0;
+        border-radius: 12px;
+    }
+    .article-content h2 {
+        font-size: 19px;
+        margin-top: 22px;
+        margin-bottom: 15px;
+    }
+    .article-content h3 {
+        font-size: 17px;
+        margin: 14px 0;
+    }
+    .article-content ul li {
+        margin-bottom: 15px;
+    }
+    .article-content ul {
+        padding-left: 20px;
+    }
+    .page-article .col-lg-4 .row--main {
+        padding-top: 25px;
+    }
+    .billbord-contacts {
+        padding-bottom: 0;
+    }
+    #map {
+        height: 380px;
+        margin-top: 40px;
+        border-radius: 20px;
+    }
+    .col-lg-3 > .item-contact {
+    margin-left: 0;
+}
+    .item-contact {
+        margin-bottom: 20px;
+    }
+    .page-contacts {
+    padding-top: 35px;
+    padding-bottom: 60px;
+}
+.billbord-contacts__title {
+    margin-bottom: 25px;
+}
 }
 
 
@@ -1806,6 +2034,8 @@
     .menu__list a:hover::after {
         opacity: 1;
     }
+    .prev.page-numbers:hover,
+    .next.page-numbers:hover,
     .scroll-up:hover,
     .scroll-down:hover,
     .slick-arrow:hover {
@@ -1836,6 +2066,12 @@
     .link-page:hover {
         border-color: transparent;
     }
+    .item-news:hover .item-news__image img {
+        transform: scale(1.05);
+    }
+    .item-news__title:hover {
+        color: #516741;
+    }
 }
 
 
@@ -1851,6 +2087,8 @@
     .menu__list a:active::after {
         opacity: 1;
     }
+    .prev.page-numbers:active,
+    .next.page-numbers:active,
     .scroll-up:active,
     .scroll-down:active,
     .slick-arrow:active {
@@ -1880,5 +2118,11 @@
     }
     .link-page:active {
         border-color: transparent;
+    }
+    .item-news:active .item-news__image img {
+        transform: scale(1.05);
+    }
+    .item-news__title:active {
+        color: #516741;
     }
 }
